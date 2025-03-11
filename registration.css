@@ -128,3 +128,16 @@ body {
       border-radius: 40px;
       font-size: 16px;
     }
+/* Styles for portrait mode */
+@media screen and (orientation: portrait) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+/* Styles for landscape mode */
+@media screen and (orientation: landscape) {
+  body {
+    background-color: lightcoral;
+  }
+}
